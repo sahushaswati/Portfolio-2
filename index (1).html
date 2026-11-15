@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Shaswati Sahu, Computer Science graduate and aspiring IT professional.">
+  <meta name="theme-color" content="#0b0b12">
+  <title>Shaswati Sahu | IT Fresher Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <header class="header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Shaswati home"><span class="brand-mark">S</span><span>shaswati<span class="accent">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch to light theme" title="Toggle theme">☼</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO ENTRY-LEVEL OPPORTUNITIES</div>
+        <p class="hello">Hello, I'm</p>
+        <h1>Shaswati <span class="gradient-text">Sahu</span><span class="wave">✦</span></h1>
+        <h2 class="hero-role">A <span id="typingText" class="gradient-text">Computer Science Graduate</span><span class="cursor">|</span></h2>
+        <p class="hero-description">I’m a Computer Science graduate interested in software development and web technologies. I enjoy building practical applications, learning new tools and turning ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="btn btn-secondary" href="#contact">Let's connect</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noreferrer" aria-label="GitHub">GH <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/shaswati-sahu-ba195b329/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in <span>↗</span></a>
+          <span class="social-note">Based in Odisha, India</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative developer illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="glow"></div>
+        <div class="code-card">
+          <div class="code-top"><span></span><span></span><span></span><small>about-me.js</small></div>
+          <div class="code-body">
+            <p><i>01</i> <b>const</b> developer = {</p>
+            <p><i>02</i> &nbsp; name: <em>'Shaswati'</em>,</p>
+            <p><i>03</i> &nbsp; background: <em>'Computer Science'</em>,</p>
+            <p><i>04</i> &nbsp; learning: <em>'Every day'</em>,</p>
+            <p><i>05</i> &nbsp; mindset: <em>'Build & grow'</em></p>
+            <p><i>06</i> };</p>
+            <p class="code-comment">// always curious ✨</p>
+          </div>
+        </div>
+        <div class="floating-chip chip-java">Java</div>
+        <div class="floating-chip chip-js">JavaScript</div>
+        <div class="floating-chip chip-db">MySQL</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="section-kicker">01 / ABOUT</p><h2>A little <span class="gradient-text">about me</span></h2><p class="section-intro">Curious by nature. Interested in technology. Always ready to learn.</p></div>
+      <div class="about-grid">
+        <article class="about-card glass reveal">
+          <div class="about-icon">✳</div>
+          <h3>Who I am</h3>
+          <p>I’m a Computer Science graduate with knowledge of programming, web development and database concepts. I like exploring how technology can solve everyday problems and enjoy contributing to practical projects.</p>
+          <p>I’m currently looking for an entry-level opportunity where I can apply my foundation, learn from experienced teams and grow as an IT professional.</p>
+        </article>
+        <div class="about-side">
+          <div class="mini-card reveal"><span class="mini-icon">⌘</span><div><strong>Computer Science</strong><small>Academic background</small></div></div>
+          <div class="mini-card reveal"><span class="mini-icon">✦</span><div><strong>Adaptive mindset</strong><small>Comfortable with new environments</small></div></div>
+          <div class="mini-card reveal"><span class="mini-icon">♡</span><div><strong>Red Cross volunteer</strong><small>Community participation</small></div></div>
+          <div class="quote-card reveal"><span>“</span><p>Small steps every day lead to meaningful progress.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="section-kicker">02 / TOOLKIT</p><h2>Skills & <span class="gradient-text">technologies</span></h2><p class="section-intro">The tools and concepts I have studied and used in my learning journey.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon">⌘</span><span class="skill-number">01</span></div><h3>Programming</h3><div class="tag-list"><span>Java</span><span>Python</span><span>C</span><span>C++</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon">▣</span><span class="skill-number">02</span></div><h3>Web Development</h3><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon">▤</span><span class="skill-number">03</span></div><h3>Database</h3><div class="tag-list"><span>MySQL</span><span>SQL</span></div></article>
+        <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon">◇</span><span class="skill-number">04</span></div><h3>Core Concepts & Tools</h3><div class="tag-list"><span>OOP</span><span>DBMS</span><span>VS Code</span><span>Git & GitHub <small class="tag-note">(edit if needed)</small></span></div></article>
+      </div>
+      <p class="small-note">Tip: Keep only the skills and tools you can confidently explain in an interview.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal"><p class="section-kicker">03 / SELECTED WORK</p><h2>Featured <span class="gradient-text">project</span></h2><p class="section-intro">One project, built as part of my academic learning journey.</p></div>
+      <article class="project-card glass reveal">
+        <div class="project-visual">
+          <div class="dashboard-mock">
+            <div class="mock-sidebar"><b>✦</b><span></span><span></span><span></span><span></span></div>
+            <div class="mock-main"><div class="mock-welcome">Your day, your way <small>Plan • Focus • Grow</small></div><div class="mock-stats"><i></i><i></i><i></i></div><div class="mock-panel"><b>Today's focus</b><span></span><span></span><span></span></div></div>
+          </div>
+          <div class="project-visual-label">ACADEMIC PROJECT</div>
+        </div>
+        <div class="project-info">
+          <div class="project-meta"><span>FEATURED PROJECT</span><span>01 / 01</span></div>
+          <h3>Self-Improving Personal Assistant <span class="gradient-text">for Gen Z</span></h3>
+          <p>A web-based personal assistant concept designed to help students organize daily tasks, manage routines, plan study time and keep health activities in view.</p>
+          <h4>My contribution</h4>
+          <p>Worked on the frontend using HTML, CSS and JavaScript; assisted with database integration, testing, basic Java logic and SQL connectivity.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Java</span><span>MySQL</span></div>
+          <button class="text-button" id="projectDetailsBtn">Explore project details <span>↗</span></button>
+        </div>
+      </article>
+      <p class="small-note">Add screenshots, a live demo and a repository link after checking that they are publicly accessible. Do not add a demo link if the project is not deployed.</p>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading reveal"><p class="section-kicker">04 / EDUCATION</p><h2>My learning <span class="gradient-text">journey</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">GRADUATION</div><div class="timeline-content"><h3>Computer Science</h3><p class="timeline-place">Kalinga Autonomous College <span>• Bhubaneswar, Odisha</span></p><p>Graduated in Computer Science. <span class="edit-hint">Add your graduation year and CGPA here.</span></p></div></div>
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">SENIOR SECONDARY</div><div class="timeline-content"><h3>Higher Secondary Education</h3><p class="timeline-place">[Add school / college name]</p><p>[Add stream, board and passing year.]</p></div></div>
+        <div class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">SECONDARY</div><div class="timeline-content"><h3>School Education</h3><p class="timeline-place">[Add school name]</p><p>[Add board and passing year.]</p></div></div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel reveal">
+        <div><p class="section-kicker">05 / CONTACT</p><h2>Let's build something <span class="gradient-text">meaningful.</span></h2><p>I'm open to entry-level IT opportunities, learning experiences and professional connections.</p></div>
+        <div class="contact-actions">
+          <a class="btn btn-primary" id="emailButton" href="mailto:YOUR-EMAIL@example.com">Email me <span>↗</span></a>
+          <button class="btn btn-secondary" id="copyEmailBtn" type="button">Copy email</button>
+          <p class="contact-hint" id="copyStatus" aria-live="polite">Replace the sample email address in the code.</p>
+        </div>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/shaswati-sahu-ba195b329/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+        <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        <a href="assets/resume.pdf" download>Download resume <span>↓</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">S</span><span>shaswati<span class="accent">.</span></span></a><p>Designed & built with curiosity <span class="accent">♥</span></p><span>© <span id="year"></span> Shaswati Sahu</span></footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <dialog class="project-dialog" id="projectDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close dialog">×</button>
+    <p class="section-kicker">PROJECT OVERVIEW</p>
+    <h2>Self-Improving Personal Assistant for Gen Z</h2>
+    <p>A student-focused personal assistant concept for organizing everyday life in one place.</p>
+    <div class="dialog-grid">
+      <div><b>Purpose</b><p>Support students with task organization, daily routines, study planning and health activity awareness.</p></div>
+      <div><b>Technology</b><p>HTML, CSS, JavaScript, Java and MySQL.</p></div>
+      <div><b>My role</b><p>Frontend development, database integration assistance, testing, basic Java logic and SQL connectivity.</p></div>
+      <div><b>Learning outcome</b><p>Practiced building user interfaces, connecting application components and testing a student-oriented application.</p></div>
+    </div>
+    <p class="dialog-footnote">Update this description to match the exact features you implemented before publishing.</p>
+  </dialog>
+</body>
+</html>
